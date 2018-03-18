@@ -1,28 +1,21 @@
+// Create a variable called button and set it to 2 which means pin 2 on the Arduino
 int button = 2;
-int LED = 12;
 
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
+  // Setup the serial monitor
+  Serial.begin(9600);  
+
+  // Make 'button' an input pin
   
-  pinMode(button, INPUT);
-  pinMode(LED, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Read the value of button
   int buttonValue = digitalRead(button);
 
-  if(buttonValue == LOW){
-    // Write a value of LOW to the LED pin
-    digitalWrite(LED, LOW);
-  }
-  else{
-    // Write a value of HIGH to the LED pin
-    digitalWrite(LED, HIGH);
-  }
-  
+  // Write the value of button to the serial monitor
   Serial.println(buttonValue);
+
+  // Wait for half a second
   
-  delay(100);
 }
