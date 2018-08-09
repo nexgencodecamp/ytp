@@ -1,2 +1,0 @@
-# ytp
-Young Technologist Programme
