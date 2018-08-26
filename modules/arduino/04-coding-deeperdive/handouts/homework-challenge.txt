@@ -1,0 +1,16 @@
+HOMEWORK CHALLENGE
+Write your own version of Blink without looking at the existing version
+
+INSTRUCTIONS
+Follow these steps to help you write your program
+
+1. Open the Arduino program
+2. Select File > New
+3. In the setup() function, initialise (which means 'setup') a digital pin as an output pin.
+4. In the loop function set the same pin to high (write a high value to it)
+5. Write a line of code that waits for half a second
+6. Now set the pin to low
+7. Now write some code that waits for one second
+8. You are done!
+9. Verify your code
+10. Upload your code (Note if you don't have an Arduino this step will not be possible)

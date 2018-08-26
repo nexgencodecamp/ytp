@@ -4,9 +4,9 @@ Young Technologist Programme
 Week 1 - Electricity
 Week 2 - Introduction to Arduino
 Week 3 - Breadboards
-Week 4 - Sensors
-Week 5 - Circuits
-Week 6 - Game Controller Design
+Week 4 - Coding - Deeper dive
+Week 5 - Buttons
+Week 6 - Sensors
 Week 7 - Game Controller Prototype - 1
 Week 8 - Game Controller Build Buttons- 2
 Week 9 - Game Controller Build Joysticks- 3
